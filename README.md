@@ -92,10 +92,52 @@
 # {min,max} : 최소 그리고 최대
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/b3ae102f-4b85-4f70-bddf-ed8282e0ce99)
 
+# /b :단어경계 --> /\bya/ --> 단어중 Ya로 시작하는 Ya
+![image](https://github.com/manbock/604_regiex/assets/145514177/82c28e9c-7df6-4a37-a122-2d32608a3ac3)
+
+# /b :단어경계 --> /ya\b/ --> 단어중 Ya로 끝나는 Ya
+![image](https://github.com/manbock/604_regiex/assets/145514177/68fb0a96-03e2-43bc-b2db-0accae4562a9)
+
+# \B  : 단어경계가 아님 --> /Ya\B/ --> Ya로 끝나지 않는 Ya
+![image](https://github.com/manbock/604_regiex/assets/145514177/b76c8b37-ee3a-4fb6-b1b2-fd46ff39ddf6)
+
+# ^   : 문장의 시작 -->  /^Ya/ --> 문장의 시작인Ya
+![image](https://github.com/manbock/604_regiex/assets/145514177/6e3962fe-f356-4da2-bd77-4321d969f1a6)
+
+# $   : 문장의 끝 -->  /Ya&/
+![image](https://github.com/manbock/604_regiex/assets/145514177/c85f31ac-95d9-4cad-bcfd-7ee0a45fb3dc)
+
+# .   :어떤 글자(줄바꿈 문자 제외)
 
 
+# /./ :--> 모든문자
 
-   - \b  : 단어경계      
-   - \B  : 단어경계가 아님
-   - ^   : 문장의 시작
-   - $   : 문장의 끝
+
+# \   : 특수문자  --> /\./  --> 특수문자 .를 찾고자할때
+![image](https://github.com/manbock/604_regiex/assets/145514177/9f162383-91ae-4422-ab3e-c0cbad2388d4)
+![image](https://github.com/manbock/604_regiex/assets/145514177/334a3fa4-5650-4059-aa1f-4148d0ee4bb0)
+
+# \d: 숫자 
+![image](https://github.com/manbock/604_regiex/assets/145514177/4b3924d8-a7a5-415d-a690-d3f0883ce1fd)
+
+
+# \D: 숫자 아님
+![image](https://github.com/manbock/604_regiex/assets/145514177/d3fd823c-4779-4184-9cc5-870c4c08a5e5)
+
+
+# \w : 문자
+![image](https://github.com/manbock/604_regiex/assets/145514177/59903835-02c4-4779-a96f-8a9f127e9f18)
+
+
+# \W : 문자 아님
+![image](https://github.com/manbock/604_regiex/assets/145514177/afb5d74b-2d14-4ea6-9115-0178949cde81)
+
+
+# \s  : 공백
+![image](https://github.com/manbock/604_regiex/assets/145514177/0716385e-0610-40fd-8f98-95a589faf07e)
+
+
+# \S  : 공백 아님
+![image](https://github.com/manbock/604_regiex/assets/145514177/dba464c3-4e66-460d-b6e9-7b05ca06cfbf)
+
+
